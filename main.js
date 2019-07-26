@@ -19,9 +19,7 @@ $(document).ready(function() {
         nextArrow: '<img src="https://dummyimage.com/100x100/fff/000&text=Next" class="slide-arrow slick-next">',
         adaptiveHeight: true
     }).on('afterChange', function(event, slick, currentSlide) {
-        if (currentSlide === 0)
-            $('.bar').css({width: 0});
-        $('.bar').startBar(currentSlide);
+        $('.bar').css({width: 0}).startBar(currentSlide);
     });
 
     $('.bar').startBar(0);

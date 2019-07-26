@@ -17,6 +17,14 @@
     width: 25%;
 }
 
+.progress-bar-box:nth-child(even) {
+    background-color: #888;
+}
+
+.progress-bar-box:nth-child(odd) {
+    background-color: #aaa;
+}
+
 .bar {
     height: 100%;
     width: 0px;
